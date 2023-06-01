@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99722414f2fa88d46b50b990bb053166, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: Assembly-CSharp:CelikenVP:PlayerStats
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stats
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[CelikenVP.StatType, Assembly-CSharp],[CelikenVP.PlayerStatsSO+Stat,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[CelikenVP.StatType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 15
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 2|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 2
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: -1
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 3|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 3
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 0
+    - Name: maxValue
+      Entry: 4
+      Data: -1
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 4|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 0
+    - Name: maxValue
+      Entry: 4
+      Data: -1
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 5|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 9
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: -1
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 6|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: 1000
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 7|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 5
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: 1000
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 8|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 6
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: 500
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 9|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 7
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: 500
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 10|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 8
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 0
+    - Name: maxValue
+      Entry: 4
+      Data: 10
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 11|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 4
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 0
+    - Name: maxValue
+      Entry: 4
+      Data: 90
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 12|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 11
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: -1
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: 13|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 12
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: -1
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: 14|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 13
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: -1
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: 15|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 14
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 100
+    - Name: maxValue
+      Entry: 4
+      Data: -1
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 16|CelikenVP.PlayerStatsSO+Stat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 10
+    - Name: stacking
+      Entry: 3
+      Data: 0
+    - Name: baseValue
+      Entry: 4
+      Data: 30
+    - Name: maxValue
+      Entry: 4
+      Data: -1
+    - Name: currentValue
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
