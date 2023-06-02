@@ -48,16 +48,30 @@ namespace CelikenVP
 
         private List<ObjectSO> PickRandomItems(int amount)
         {
-            List<ObjectSO> items = new();
-            if (amount > listItem.Count) return listItem;
-            while (items.Count < amount)
+            List<ObjectSO> items = new List<ObjectSO>(listItem);
+            List<ObjectSO> res = new();
+            if (amount > items.Count) return items;
+
+            int totalWeight = 0;
+            foreach (var item in items) totalWeight += item.objectRarity;
+
+            while (res.Count < amount)
             {
-                int id = Random.Range(0, listItem.Count);
-                if (items.Contains(listItem[id]))
-                    continue;
-                items.Add(listItem[id]);
+                int rndWeight = Random.Range(0, totalWeight);
+                int processedWeight = 0;
+                foreach (var item in items)
+                {
+                    processedWeight += item.objectRarity;
+                    if (rndWeight <= processedWeight)
+                    {
+                        res.Add(item);
+                        totalWeight -= item.objectRarity;
+                        items.Remove(item);
+                        break;
+                    }
+                }
             }
-            return items;
+            return res;
         }
 
         private void RemoveItem(ObjectSO item)

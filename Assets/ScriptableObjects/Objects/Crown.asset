@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Crown
   objectDescription: XP gain increases by 8%
   objectMaxLevel: 5
+  objectRarity: 80

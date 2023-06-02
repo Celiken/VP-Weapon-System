@@ -98,3 +98,4 @@ MonoBehaviour:
   objectName: Torrona's Box
   objectDescription: 'Increases Might, Projectile Speed, Duration, and Area by 3%. '
   objectMaxLevel: 9
+  objectRarity: 40

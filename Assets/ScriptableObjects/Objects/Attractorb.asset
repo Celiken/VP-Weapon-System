@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Attractorb
   objectDescription: Pickup range increased by 33%
   objectMaxLevel: 5
+  objectRarity: 100

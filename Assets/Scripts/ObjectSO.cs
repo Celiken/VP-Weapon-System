@@ -12,6 +12,7 @@ namespace CelikenVP
         public string objectName;
         public string objectDescription;
         public int objectMaxLevel;
+        public int objectRarity;
 
         public List<Upgrade> upgrades = new List<Upgrade>();
     }

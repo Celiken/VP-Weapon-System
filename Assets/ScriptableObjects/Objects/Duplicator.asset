@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Duplicator
   objectDescription: Fires 1 more projectile
   objectMaxLevel: 2
+  objectRarity: 50

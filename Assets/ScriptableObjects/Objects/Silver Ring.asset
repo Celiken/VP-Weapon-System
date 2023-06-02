@@ -68,3 +68,4 @@ MonoBehaviour:
   objectName: Silver Ring
   objectDescription: Effect last 5% longer. Base area up by 5%
   objectMaxLevel: 9
+  objectRarity: 10

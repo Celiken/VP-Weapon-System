@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Skull O'Maniac
   objectDescription: Increases enemy speed, health, quantity, and frequency by 10%
   objectMaxLevel: 5
+  objectRarity: 40

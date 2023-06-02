@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Gold Ring
   objectDescription: 'Increases enemy speed, health, quantity, and frequency by 5%. '
   objectMaxLevel: 9
+  objectRarity: 10

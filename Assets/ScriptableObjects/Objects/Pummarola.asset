@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Pummarola
   objectDescription: Health recovery increases by 0.2 HP per second
   objectMaxLevel: 5
+  objectRarity: 90

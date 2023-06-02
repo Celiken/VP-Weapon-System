@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Empty Tome
   objectDescription: Cooldown reduced by 8.0%
   objectMaxLevel: 5
+  objectRarity: 50

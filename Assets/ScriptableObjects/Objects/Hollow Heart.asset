@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Hollow Heart
   objectDescription: Max health increases by 20%
   objectMaxLevel: 5
+  objectRarity: 90

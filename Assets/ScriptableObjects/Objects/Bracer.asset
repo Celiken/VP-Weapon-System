@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Bracer
   objectDescription: Base speed up by 10%
   objectMaxLevel: 5
+  objectRarity: 100

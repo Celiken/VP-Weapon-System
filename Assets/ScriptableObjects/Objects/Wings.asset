@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Wings
   objectDescription: Movement speed increases by 10%
   objectMaxLevel: 5
+  objectRarity: 50

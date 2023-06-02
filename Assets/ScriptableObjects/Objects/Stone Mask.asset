@@ -53,3 +53,4 @@ MonoBehaviour:
   objectName: Stone Mask
   objectDescription: Coins value increases by 10%
   objectMaxLevel: 5
+  objectRarity: 80
