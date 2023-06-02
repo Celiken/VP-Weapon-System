@@ -52,3 +52,4 @@ MonoBehaviour:
   objectIcon: {fileID: 21300000, guid: f2d4734feb9ca114caf9f4105bb73aef, type: 3}
   objectName: Empty Tome
   objectDescription: Cooldown reduced by 8.0%
+  objectMaxLevel: 5

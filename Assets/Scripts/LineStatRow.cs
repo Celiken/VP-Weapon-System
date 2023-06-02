@@ -16,9 +16,13 @@ namespace CelikenVP
         public void UpdateStatValue(float statValue, StackingMode stacking)
         {
             if (stacking == StackingMode.Multiplicative)
-                statValueText.text = $"{statValue}%";
+                statValueText.text = $"{statValue:0.#}%";
+            if (stacking == StackingMode.MultiplicativeInt)
+                statValueText.text = $"{statValue:0}%";
             if (stacking == StackingMode.Additive)
-                statValueText.text = $"{statValue}";
+                statValueText.text = $"{statValue:0.#}";
+            if (stacking == StackingMode.AdditiveInt)
+                statValueText.text = $"{statValue:0}";
         }
     }
 }

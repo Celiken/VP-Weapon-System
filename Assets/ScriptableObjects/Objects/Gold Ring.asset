@@ -52,3 +52,4 @@ MonoBehaviour:
   objectIcon: {fileID: 21300000, guid: 8676657fec9cc7449a48fc47208631c7, type: 3}
   objectName: Gold Ring
   objectDescription: 'Increases enemy speed, health, quantity, and frequency by 5%. '
+  objectMaxLevel: 9

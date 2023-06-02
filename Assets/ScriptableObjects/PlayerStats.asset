@@ -15,7 +15,20 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 5439a8309d3584d4da5816edc4fb560c, type: 2}
+    - {fileID: 11400000, guid: 19b6010d1863be24695da95adaa443ad, type: 2}
+    - {fileID: 11400000, guid: 6d0aaba2c6bb5854b892da4f180791be, type: 2}
+    - {fileID: 11400000, guid: 1de4560f9378ff940964ce8a82284848, type: 2}
+    - {fileID: 11400000, guid: 098c5d467f2e2c04fad4b5939ed15c9f, type: 2}
+    - {fileID: 11400000, guid: bcbf89308f12944429171ddde989c6ea, type: 2}
+    - {fileID: 11400000, guid: 4302bda13800c1845a44f0d778dfdad9, type: 2}
+    - {fileID: 11400000, guid: f9a06193342d3004baa85ad62d733631, type: 2}
+    - {fileID: 11400000, guid: 0d59bcf830903b042acb373efc18bd35, type: 2}
+    - {fileID: 11400000, guid: 231317487d36af944b3dfee188a681cb, type: 2}
+    - {fileID: 11400000, guid: e0b04e0406a1e864aa4ac379f52af311, type: 2}
+    - {fileID: 11400000, guid: d7a947a6c381396448544a532b6c0d35, type: 2}
+    - {fileID: 11400000, guid: d93525848645c444588a521cfab18492, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -55,7 +68,7 @@ MonoBehaviour:
       Data: 2
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -64,7 +77,7 @@ MonoBehaviour:
       Data: -1
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 138.915
     - Name: 
       Entry: 8
       Data: 
@@ -94,7 +107,7 @@ MonoBehaviour:
       Data: -1
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 0.3
     - Name: 
       Entry: 8
       Data: 
@@ -115,7 +128,7 @@ MonoBehaviour:
       Data: 1
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: baseValue
       Entry: 4
       Data: 0
@@ -124,7 +137,7 @@ MonoBehaviour:
       Data: -1
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -145,7 +158,7 @@ MonoBehaviour:
       Data: 9
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -154,7 +167,7 @@ MonoBehaviour:
       Data: -1
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 110
     - Name: 
       Entry: 8
       Data: 
@@ -175,7 +188,7 @@ MonoBehaviour:
       Data: 0
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -184,7 +197,7 @@ MonoBehaviour:
       Data: 1000
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 170.280014
     - Name: 
       Entry: 8
       Data: 
@@ -205,7 +218,7 @@ MonoBehaviour:
       Data: 5
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -214,7 +227,7 @@ MonoBehaviour:
       Data: 1000
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 139
     - Name: 
       Entry: 8
       Data: 
@@ -235,7 +248,7 @@ MonoBehaviour:
       Data: 6
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -244,7 +257,7 @@ MonoBehaviour:
       Data: 500
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 109
     - Name: 
       Entry: 8
       Data: 
@@ -265,7 +278,7 @@ MonoBehaviour:
       Data: 7
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -274,7 +287,7 @@ MonoBehaviour:
       Data: 500
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 109
     - Name: 
       Entry: 8
       Data: 
@@ -295,7 +308,7 @@ MonoBehaviour:
       Data: 8
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: baseValue
       Entry: 4
       Data: 0
@@ -304,7 +317,7 @@ MonoBehaviour:
       Data: 10
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -325,7 +338,7 @@ MonoBehaviour:
       Data: 4
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 0
@@ -334,7 +347,7 @@ MonoBehaviour:
       Data: 90
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 24
     - Name: 
       Entry: 8
       Data: 
@@ -355,7 +368,7 @@ MonoBehaviour:
       Data: 11
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -364,7 +377,7 @@ MonoBehaviour:
       Data: -1
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 100
     - Name: 
       Entry: 8
       Data: 
@@ -385,7 +398,7 @@ MonoBehaviour:
       Data: 12
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -394,7 +407,7 @@ MonoBehaviour:
       Data: -1
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 100
     - Name: 
       Entry: 8
       Data: 
@@ -415,7 +428,7 @@ MonoBehaviour:
       Data: 13
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -424,7 +437,7 @@ MonoBehaviour:
       Data: -1
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 100
     - Name: 
       Entry: 8
       Data: 
@@ -445,7 +458,7 @@ MonoBehaviour:
       Data: 14
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: baseValue
       Entry: 4
       Data: 100
@@ -454,7 +467,7 @@ MonoBehaviour:
       Data: -1
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 140
     - Name: 
       Entry: 8
       Data: 
@@ -475,7 +488,7 @@ MonoBehaviour:
       Data: 10
     - Name: stacking
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: baseValue
       Entry: 4
       Data: 30
@@ -484,10 +497,186 @@ MonoBehaviour:
       Data: -1
     - Name: currentValue
       Entry: 4
-      Data: 0
+      Data: 30
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: levelObject
+      Entry: 7
+      Data: 17|System.Collections.Generic.Dictionary`2[[CelikenVP.ObjectSO, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 18|System.Collections.Generic.ObjectEqualityComparer`1[[CelikenVP.ObjectSO,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 13
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 1
+    - Name: $v
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 2
+    - Name: $v
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 3
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 4
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 5
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 6
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 7
+    - Name: $v
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 8
+    - Name: $v
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 9
+    - Name: $v
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 11
+    - Name: $v
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 12
+    - Name: $v
+      Entry: 3
+      Data: 1
     - Name: 
       Entry: 8
       Data: 

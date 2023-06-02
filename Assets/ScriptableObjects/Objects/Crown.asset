@@ -52,3 +52,4 @@ MonoBehaviour:
   objectIcon: {fileID: 21300000, guid: 34aa6c2b41549444ebf8b5a3c942c10d, type: 3}
   objectName: Crown
   objectDescription: XP gain increases by 8%
+  objectMaxLevel: 5

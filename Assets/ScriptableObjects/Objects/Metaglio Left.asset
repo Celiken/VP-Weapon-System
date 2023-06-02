@@ -51,7 +51,7 @@ MonoBehaviour:
       Data: 2
     - Name: stacking
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: upgradeValue
       Entry: 4
       Data: 1.05
@@ -68,3 +68,4 @@ MonoBehaviour:
   objectName: Metaglio Left
   objectDescription: 'Health recovery increases by 0.1 HP per second. Max Health
     increases by 5%. '
+  objectMaxLevel: 9

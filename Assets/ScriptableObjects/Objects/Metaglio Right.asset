@@ -52,3 +52,4 @@ MonoBehaviour:
   objectIcon: {fileID: 21300000, guid: dfb026ab0680286409d787e6e9852b0d, type: 3}
   objectName: Metaglio Right
   objectDescription: Increases enemy speed, health, quantity, and frequency by 5%
+  objectMaxLevel: 9

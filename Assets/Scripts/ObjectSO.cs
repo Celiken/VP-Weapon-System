@@ -8,10 +8,11 @@ namespace CelikenVP
     [CreateAssetMenu(menuName = "Object")]
     public class ObjectSO : SerializedScriptableObject
     {
-        [SerializeField] private Sprite objectIcon;
-        [SerializeField] private string objectName;
-        [SerializeField] private string objectDescription;
+        public Sprite objectIcon;
+        public string objectName;
+        public string objectDescription;
+        public int objectMaxLevel;
 
-        [SerializeField] private List<Upgrade> upgrades = new List<Upgrade>();
+        public List<Upgrade> upgrades = new List<Upgrade>();
     }
 }

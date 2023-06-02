@@ -27,7 +27,22 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|CelikenVP.Upgrade, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 14
+    - Name: stacking
+      Entry: 3
       Data: 0
+    - Name: upgradeValue
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -37,3 +52,4 @@ MonoBehaviour:
   objectIcon: {fileID: 21300000, guid: ffc827bee1f597e43a8d4717a3c0f6ea, type: 3}
   objectName: Skull O'Maniac
   objectDescription: Increases enemy speed, health, quantity, and frequency by 10%
+  objectMaxLevel: 5

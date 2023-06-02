@@ -52,3 +52,4 @@ MonoBehaviour:
   objectIcon: {fileID: 21300000, guid: 2515bd697b24a1a4c8f376ce445366b3, type: 3}
   objectName: Spinach
   objectDescription: Base damage up by 10%
+  objectMaxLevel: 5

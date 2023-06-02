@@ -33,10 +33,10 @@ MonoBehaviour:
       Data: 1|CelikenVP.Upgrade, Assembly-CSharp
     - Name: type
       Entry: 3
-      Data: 0
+      Data: 10
     - Name: stacking
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: upgradeValue
       Entry: 4
       Data: 1.32
@@ -52,3 +52,4 @@ MonoBehaviour:
   objectIcon: {fileID: 21300000, guid: 4bcf573b9f97f884a8a0196590da2fcd, type: 3}
   objectName: Attractorb
   objectDescription: Pickup range increased by 33%
+  objectMaxLevel: 5

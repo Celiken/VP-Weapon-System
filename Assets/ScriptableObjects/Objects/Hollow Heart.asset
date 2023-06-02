@@ -36,7 +36,7 @@ MonoBehaviour:
       Data: 2
     - Name: stacking
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: upgradeValue
       Entry: 4
       Data: 1.2
@@ -52,3 +52,4 @@ MonoBehaviour:
   objectIcon: {fileID: 21300000, guid: bf145faa15ec0aa479b6f047f1488f55, type: 3}
   objectName: Hollow Heart
   objectDescription: Max health increases by 20%
+  objectMaxLevel: 5

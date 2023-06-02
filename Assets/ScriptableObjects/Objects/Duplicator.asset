@@ -52,3 +52,4 @@ MonoBehaviour:
   objectIcon: {fileID: 21300000, guid: 34a34575936b372458b24905ae47f35f, type: 3}
   objectName: Duplicator
   objectDescription: Fires 1 more projectile
+  objectMaxLevel: 2

@@ -1,4 +1,5 @@
 using Sirenix.OdinInspector;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,6 +16,12 @@ namespace CelikenVP
         void Start()
         {
             UpdateStats();
+            PlayerStatsSO.Stat.OnStatUpdated += StatDisplayer_OnStatUpdated;
+        }
+
+        private void StatDisplayer_OnStatUpdated(object sender, StatType e)
+        {
+            UpdateStat(e);
         }
 
         void UpdateStats()
